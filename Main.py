@@ -47,11 +47,11 @@ class MyCircularQueue:
         else:
             return self.queue[self.front]
 
-    def get_rear(self):
+    def get_rear(self)
         # Write code here
         if (self.front == -1):
             return -1
-       else:
+        else:
             return self.queue[self.rear]
 
     def is_empty(self):
