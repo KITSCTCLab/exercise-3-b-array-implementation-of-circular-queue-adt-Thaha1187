@@ -27,7 +27,7 @@ class MyCircularQueue:
                 self.rear = -1
                 return True
              else:
-                t = self.queue[self.front]6
+                t = self.queue[self.front]
                 self.front = (self.front + 1)%self.size
                 return True
  
